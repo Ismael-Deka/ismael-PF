@@ -12,10 +12,22 @@ function ProjectView() {
           <Col />
         </Row>
         <Container>
-          <Row>
-
-            <Col className="d-flex justify-content-center">
-              <Card style={{ width: '18rem' }}>
+          <Col>
+            <Row className="d-flex justify-content-center">
+              <Card style={{ height: '30rem', width: '50rem' }}>
+                <Card.Img variant="Top" />
+                <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card&apos;s content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Row>
+            <Row className="d-flex justify-content-center">
+              <Card style={{ height: '18rem', width: '18rem' }}>
                 <Card.Img variant="top" />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -26,9 +38,9 @@ function ProjectView() {
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col className="d-flex justify-content-center">
-              <Card style={{ width: '18rem' }}>
+            </Row>
+            <Row className="d-flex justify-content-center">
+              <Card style={{ height: '18rem', width: '18rem' }}>
                 <Card.Img variant="top" />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -39,9 +51,9 @@ function ProjectView() {
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col className="d-flex justify-content-center">
-              <Card style={{ width: '18rem' }}>
+            </Row>
+            <Row className="d-flex justify-content-center">
+              <Card style={{ height: '18rem', width: '18rem' }}>
                 <Card.Img variant="top" />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -52,21 +64,8 @@ function ProjectView() {
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col className="d-flex justify-content-center">
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card&apos;s content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+            </Row>
+          </Col>
         </Container>
       </Card>
     </Container>
