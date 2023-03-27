@@ -19,9 +19,9 @@ function HomeView() {
           border: '1px', borderStyle: 'solid', borderRadius: '20px',
         }}
         >
-          <Col style={{ paddingLeft: '3vw', paddingTop: '10rem', paddingBottom: '15%'}}>
+          <Col style={{ paddingLeft: '3vw', paddingTop: '25vh', paddingBottom: '25vh'}}>
             <Row xs={1} className="p-2 mb-2  mt-5">
-              <h1 className="display-1">Hi, I&apos;m Ismael Deka.</h1>
+              <h1 className="display-3">Hi, I&apos;m Ismael Deka.</h1>
             </Row>
             <Row xs={1} className="pr-2 mb-2">
               <p className="lead">I have experience with a wide range of programming languages and tools including Java, Python, JavaScript, HTML, React, Bootstrap, Flutter, Android development, and many more.</p>
