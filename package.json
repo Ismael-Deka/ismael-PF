@@ -19,7 +19,7 @@
   "scripts": {
     "homepage": "https://Ismael-Deka.github.io/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "PUBLIC_URL=./ react-scripts build",
     "test": "react-scripts test",
