@@ -17,11 +17,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://Ismael-Deka.github.io/",
+    "homepage": "https://Ismael-Deka.github.io/ismael-PF",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=./ react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
